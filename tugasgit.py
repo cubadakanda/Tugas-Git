@@ -35,7 +35,7 @@ def tampilkan_hasil_lokasi_tertentu(data):
         print(f"Hasil Panen Jagung: {lokasi2['panen']['jagung']}")
 
 def tampilkan_nama_lokasi(data):
-    print("\nNo. 3")
+    print("\nIni No. 3")
     lokasi3 = data.get("lokasi3")
     if lokasi3:
         print(f"Nama Lokasi dari lokasi3: {lokasi3['nama']}")
