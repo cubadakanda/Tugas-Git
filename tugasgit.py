@@ -41,7 +41,7 @@ def tampilkan_nama_lokasi(data):
         print(f"Nama Lokasi dari lokasi3: {lokasi3['nama']}")
 
 def hitung_total_hasil(data):
-    print("\nNo. 4")
+    print("\nIni No. 4")
     total_padi = sum(lokasi["panen"]["padi"] for lokasi in data.values())
     total_kedelai = sum(lokasi["panen"]["kedelai"] for lokasi in data.values())
     print(f"Total Panen:\n  Padi: {total_padi}\n  Kedelai: {total_kedelai}")
