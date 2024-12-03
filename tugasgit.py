@@ -47,7 +47,7 @@ def hitung_total_hasil(data):
     print(f"Total Panen:\n  Padi: {total_padi}\n  Kedelai: {total_kedelai}")
 
 def tampilkan_per_lokasi(data):
-    print("\nNo. 5")
+    print("\nIni No. 5")
     for lokasi in data.values():
         print(f"Nama Lokasi: {lokasi['nama']}")
         print(f"  Padi: {lokasi['panen']['padi']}\n  Kedelai: {lokasi['panen']['kedelai']}\n  Jagung: {lokasi['panen']['jagung']}\n")
