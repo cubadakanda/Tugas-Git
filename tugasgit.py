@@ -22,7 +22,7 @@ data_hasil_panen = {
 }
 
 def tampilkan_semua_hasil(data):
-    print("\nNo. 1")
+    print("\nIni No. 1")
     for lokasi in data.values():
         print(f"Nama Lokasi: {lokasi['nama']}")
         print(f"Hasil Panen:\n  Padi: {lokasi['panen']['padi']}\n  Jagung: {lokasi['panen']['jagung']}\n  Kedelai: {lokasi['panen']['kedelai']}\n")
