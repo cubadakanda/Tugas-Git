@@ -28,7 +28,7 @@ def tampilkan_semua_hasil(data):
         print(f"Hasil Panen:\n  Padi: {lokasi['panen']['padi']}\n  Jagung: {lokasi['panen']['jagung']}\n  Kedelai: {lokasi['panen']['kedelai']}\n")
 
 def tampilkan_hasil_lokasi_tertentu(data):
-    print("\nNo. 2")
+    print("\nIni No. 2")
     lokasi2 = data.get("lokasi2")
     if lokasi2:
         print(f"Lokasi: {lokasi2['nama']}")
